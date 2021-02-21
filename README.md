@@ -15,3 +15,8 @@ HSP 511 - Economics Lab
     - Access right, process and jobs, background process, killing a process
     - Writing Shell script
     - Bash profile
+
+# (Feb 19, 2021 12:00 - 20:00)
+
+## Week 3
+# (Feb 21, 2021 12:00 - 20:00)
