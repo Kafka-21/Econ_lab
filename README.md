@@ -2,6 +2,9 @@
 
 HSP 511 - Economics Lab 
 
+Note - 1. Directory Folders are named as per Weekly schedule
+       2. Below logbook includes work across different directory  
+
 ## Week 1 
 # (Feb 12, 2021 20:00 - 00:00)
     - Functional model of computation
@@ -42,6 +45,15 @@ HSP 511 - Economics Lab
         - Solving problems and coding for recursion and iteration 
         - understanding time complexities 
 
-# (Feb 22, 2021 20:00- 22:00)
+# (Feb 22, 2021 20:00 - 22:00)
     - git commands 
+
+# (Feb 23, 2021 20:00 - 22:00)
+    - git commands 
+    - Machine learning - supervised machine learning & risk stratification algorithm
+
+# (Feb 28, 2021 12:00 - 16:00)
+    - Imperative programming 
+    - do while loop, if-else 
+    - comparison of imperative vs functional 
 
