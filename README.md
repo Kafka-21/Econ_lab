@@ -52,8 +52,19 @@ Note - 1. Directory Folders are named as per Weekly schedule
     - git commands 
     - Machine learning - supervised machine learning & risk stratification algorithm
 
+## Week 4
 # (Feb 28, 2021 12:00 - 16:00)
     - Imperative programming 
     - do while loop, if-else 
     - comparison of imperative vs functional 
+
+# (March 1, 2021 12:00 - 16:00)
+    - Linear regression, Logistic regression
+    - Machine learning Basics - decision tree classifier, KNN, SVM 
+    - Libraries - Scikit learn, Tensorflow, sklearn 
+
+# (March 2, 2021 10:00 - 12:00)
+    - Data structure in python - List, tuple, dictionaries, JSON
+    
+
 
