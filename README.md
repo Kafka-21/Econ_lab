@@ -2,8 +2,9 @@
 
 HSP 511 - Economics Lab 
 
-Note - 1. Directory Folders are named as per Weekly schedule
-       2. Below logbook includes work across different directory  
+## Note :
+      - Directory Folders are named as per Weekly schedule
+      - Below logbook includes work across different directories  
 
 # Week 1 
 ### (Feb 12, 2021 20:00 - 00:00)
