@@ -12,7 +12,7 @@ def budget_constraint(income, p_x, p_y, x):
 from scipy.optimize import minimize_scalar
 
 # defining objective function for maximization (-ive as scipy has minimization)
-f = lambda x: -x * budget_constraint(10, 10, 10, x)
+f = lambda x: -x * budget_constraint(100, 10, 10, x)
 
 res = minimize_scalar(f, method = 'brent')
 print(res.x)
