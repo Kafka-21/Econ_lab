@@ -66,6 +66,11 @@ HSP 511 - Economics Lab
 
 ### (March 2, 2021 10:00 - 12:00)
     - Data structure in python - List, tuple, dictionaries, JSON
-    
+
+# Week 5
+### (March 7, 2020 14:00 - 16:00)
+    - Microeconomics problem 
+    - Utility maximization problem using scipy 
+    - optimization using user defined function  
 
 
