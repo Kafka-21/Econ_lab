@@ -290,3 +290,5 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 	                    17 = Domestic servant
 	                    98 = DK
 
+Above attributes will be selected initially and PCA will be performed to reduce attributes.
+
