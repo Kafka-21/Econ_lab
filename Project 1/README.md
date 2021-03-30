@@ -5,9 +5,9 @@
 1. [National Family Health Survey, 4 (2015-2016) - India](https://www.dhsprogram.com/data/dataset/India_Standard-DHS_2015.cfm?flag=0)
 2. [National Family Health Survey, 3 (2005-2006) - India](https://www.dhsprogram.com/data/dataset/India_Standard-DHS_2006.cfm?flag=1)
 3. [National Family Health Survey, 4 (2015-2016) - India](http://rchiips.org/NFHS/factsheet_NFHS-4.shtml) 
-4. [National Family Health Survey, 5 (2005-2006) - India](http://rchiips.org/NFHS/factsheet.shtml)
+4. [National Family Health Survey, 3 (2005-2006) - India](http://rchiips.org/NFHS/factsheet.shtml)
 5. Data for project has been taken from https://data.gov.in/
-6. Link to the dataset: https://data.gov.in/catalogkey-indicators-national-family-health-survey-nfhs
+6. Link to the dataset: https://data.gov.in/catalog/key-indicators-national-family-health-survey-nfhs
 
 ## Assessment of risk of diabetes using spatial dietary intake profile from NFHS-4 and NFHS-3 dataset
 
