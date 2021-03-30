@@ -2,17 +2,20 @@
 import numpy as np
 from sympy import Symbol
 
-# defining utiltiy function
+# defining utiltiy function U(x, y) = x * y
 def utility_func(x, y):
           return x*y
 
-# defining budget_constraint 
+# defining budget_constraint income = p_x * x + p_y * y
 def budget_constraint(income, p_x, p_y, x):
           return (income - (p_x * x)) / p_y 
 
 # defining objective function for maximization
 f = lambda x: -x * budget_constraint(100, 10, 10, x)
 
+from scipy.optimize import minimize_scalar
+res = minimize_scalar(f, method = 'brent')
+print(res.x)
 
 def bisection(f,a,b,N):
     '''Approximate solution of f(x)=0 on interval [a,b] by bisection method.
@@ -59,6 +62,29 @@ def bisection(f,a,b,N):
             return None
     return (a_n + b_n)/2
 
-approx_phi = bisection(f, 2, 20,250)
+g = lambda x: x * budget_constraint(100, 10, 10, x)
+print(g(1), g(2), g(3), g(4), g(5), g(6), g(7), g(8), g(9), g(10))
+
+from sympy import *
+
+# g = symbols('g', cls = Function)
+
+x = Symbol('x')
+
+# function = x**4 + 7*x**3 + 8
+
+g_prime = Derivative(x * budget_constraint(100, 10, 10, x), x)
+print(g_prime.doit())
+
+approx_phi = bisection(g_prime, 4, 6, 30)
 print(approx_phi)
+
+# approx_phi = bisection(g_prime, 4, 6, 30)
+# print(approx_phi)
+
+f_prime = lambda x : 10 - 2 * x
+
+approx_phi = bisection(f_prime, 4, 6, 30)
+print(approx_phi)
+
 
