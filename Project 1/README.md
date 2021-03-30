@@ -1,6 +1,6 @@
 # Project 1
 
-## NHFS Dataset 
+## NFHS Dataset 
 
 1. [National Family Health Survey, 4 (2015-2016) - India](https://www.dhsprogram.com/data/dataset/India_Standard-DHS_2015.cfm?flag=0)
 2. [National Family Health Survey, 3 (2005-2006) - India](https://www.dhsprogram.com/data/dataset/India_Standard-DHS_2006.cfm?flag=1)
@@ -13,4 +13,4 @@
 
 This project explores two problems: discovering a set of attributes that predicts risk of diabetes and analysing the influence of socio-economic indicator on risk of diabetes. The NFHS-4 and NFHS-3 data will be used in machine learning techniques and other advanced data analytics approaches for analysis.
 
-This project is part of research project for Econ HSP511 : Economics lab at [IIT Delhi](https://hss.iitd.ac.in/economics) under the guidance of [Prof. Sourabh B Paul](https://hss.iitd.ac.in/faculty/sourabh-b-paul)
+This project is a part of economics course HSP511 : Economics lab at [IIT Delhi](https://hss.iitd.ac.in/economics) under the guidance of [Prof. Sourabh B Paul](https://hss.iitd.ac.in/faculty/sourabh-b-paul)
