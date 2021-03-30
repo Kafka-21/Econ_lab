@@ -74,3 +74,14 @@ HSP 511 - Economics Lab
 
 ### (March 9, 2021 14:00 - 16:00)
     - optimization using user defined function  
+
+# Week 6
+### 
+
+# Week 7
+### (March 28, 2021 14:00 - 16:00)
+    - NHFS dataset 
+
+### (March 29, 2021 14:00 - 16:00)
+
+### (March 30, 2020 14:00 - 18:00)
