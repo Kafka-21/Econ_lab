@@ -31,7 +31,9 @@ Attributes used in Machine learning for diabetes prediction
 
 Calender (VCAL) codes - contains information on aspects of the respondent's immediate history
 
-1. VCAL(1): Births, pregnancies and contraceptive use 
+1. VCAL(1): 
+                    
+                    Births, pregnancies and contraceptive use 
                     B = Birth
                     P = Pregnancies
                     T = Terminated pregnancy / non-live birth
@@ -52,12 +54,14 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
                     ? = Missing
 
 2. Standard of living index - below attributes for physical activity 
+                    
                     HV210 = 1: Bicycle     Assigned SLI score : 2
                     SH47W = 1: Tractor     Assigned SLI score : 4
                     HV212 = 1: Car         Assigned SLI score : 4
                     HV211 = 1: Motorcycle  Assigned SLI score : 3
 
 3. State 
+                    
                     HV024
                     [AP] Andhra Pradesh           28
                     [AS] Assam                    18
@@ -92,10 +96,12 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 ### Household variables
 
 4. Geographical location
+                    
                     SH025 - City/Town/Countryside
                     SHCITY - Selected cities 
 
 5. Socio-Economic attributes - dietary pattern may vary 
+                    
                     SH44 : Household head's religion
                     SH45 : Caste or tribe of household head 
                     SH46 : Type of caste or tribe of the household head 
@@ -103,6 +109,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
                     SHSLI : standard of living index 
 
 6. Ownership of bovine - milk giving - for dietary pattern 
+                    
                     SH62A : Has cows/bulls/buffalo
                     SH62B : Has camels
                     SH62C : Has horses/donkeys/mules
@@ -113,6 +120,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 ### Women
 
 7. Geograhical location 
+                    
                     S025 : City\Town\Countryside 
                     SCITY : selected cities 
 
@@ -143,6 +151,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 
 
 8. Socio-Economic attributes - dietary pattern may vary 
+                    
                     S44 : Household head's religion
                     S45 : Caste or tribe of household head 
                     S46 : Type of caste or tribe of the household head 
@@ -168,6 +177,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
                     V716 : Respondent's occupation
 
 9. Ownership of bovine - milk giving - for dietary pattern 
+                    
                     S62A : Has cows/bulls/buffalo
                     S62B : Has camels
                     S62C : Has horses/donkeys/mules
@@ -176,6 +186,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
                     S62F : Has chickens  
 
 10. Dietary pattern 
+                    
                     S558A : Mother consumed: milk or curd
 	          S558B : Mother consumed: pulses or beans
 	          S558C : Mother consumed: dark green leafy veggies
@@ -185,6 +196,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 	          S558G : Mother consumed: chicken or meat
 
 11. Other disease - high correlation between diabetes and other disease
+                    
                     S569  : Drinks alcohol
 	          S570  : Frequency of alcohol use
 	          S575A : Do you have: diabetes
@@ -195,6 +207,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 ### MEN
 
 12. Geograhical location 
+                    
                     SM025 : City\Town\Countryside 
                     SMCITY : selected cities 
 
@@ -203,6 +216,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 
 
 13. Socio-Economic attributes - dietary pattern may vary 
+                    
                     S44 : Household head's religion
                     SM119 : Caste or tribe 
                     SM120 : Type of caste or tribe  
@@ -217,6 +231,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
                     MV716 : Respondent's occupation 
 
 14. Ownership of bovine - milk giving - for dietary pattern 
+                    
                     S62A : Has cows/bulls/buffalo
                     S62B : Has camels
                     S62C : Has horses/donkeys/mules
@@ -225,6 +240,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
                     S62F : Has chickens  
 
 15. Dietary pattern 
+                    
                     SM601A : Man consumed: milk or curd
 	          SM601B : Man consumed: pulses or beans
 	          SM601C : Man consumed: dark green leafy veggies
@@ -235,6 +251,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 
 
 16. Other disease - high correlation between diabetes and other disease
+                    
                     SM612  : Drinks alcohol
 	          SM613  : Frequency of alcohol use
 	          SM618A : Do you have: diabetes
@@ -243,6 +260,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 ### Health 
 
 17. Health factors & BMI
+                    
                     MV042	Household selection for hemoglobin
 	          MV437	Respondent's weight (kilos-1d)
 	          MV438	Respondent's height (cms-1d)
@@ -290,5 +308,5 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 	                    17 = Domestic servant
 	                    98 = DK
 
-Above attributes will be selected initially and PCA will be performed to reduce attributes.
+Above attributes will be selected initially & PCA will be performed to reduce attributes.
 
