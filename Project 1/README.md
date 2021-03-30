@@ -33,7 +33,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 
 1. VCAL(1): 
                     
-          Births, pregnancies and contraceptive use 
+          Births, pregnancies and contraceptive use :
                     
                     B = Birth
                     P = Pregnancies
@@ -63,7 +63,7 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 
 3. State 
                     
-          HV024
+          HV024 :
           
                     [AP] Andhra Pradesh           28
                     [AS] Assam                    18
@@ -131,7 +131,6 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 
           V139 : De jure state of residence 
           V150 : Relationship to household head 
-                    
                     1 = Head
                     2 = Wife
 	          3 = Daughter
@@ -164,7 +163,6 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
           SV122 : Educational level during 2005-06 school year
 
           V130 : Religion
-                              
                     1 = Hindu
 	          2 = Muslim
 	          3 = Christian
@@ -192,20 +190,20 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 10. Dietary pattern 
                     
           S558A : Mother consumed: milk or curd
-	S558B : Mother consumed: pulses or beans
-	S558C : Mother consumed: dark green leafy veggies
-	S558D : Mother consumed: fruits
-	S558E : Mother consumed: eggs
-	S558F : Mother consumed: fish
-	S558G : Mother consumed: chicken or meat
+          S558B : Mother consumed: pulses or beans
+          S558C : Mother consumed: dark green leafy veggies
+          S558D : Mother consumed: fruits
+          S558E : Mother consumed: eggs
+          S558F : Mother consumed: fish
+          S558G : Mother consumed: chicken or meat
 
 11. Other disease - high correlation between diabetes and other disease
                     
           S569  : Drinks alcohol
-	S570  : Frequency of alcohol use
-	S575A : Do you have: diabetes
+          S570  : Frequency of alcohol use
+          S575A : Do you have: diabetes
           S575C : Do you have: goiter or other thyroid disorder
-
+          
           V166 : Results of salt iodine test 
 
 ### MEN
@@ -246,19 +244,19 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 15. Dietary pattern 
                     
           SM601A : Man consumed: milk or curd
-	SM601B : Man consumed: pulses or beans
-	SM601C : Man consumed: dark green leafy veggies
-	SM601D : Man consumed: fruits
-	SM601E : Man consumed: eggs
-	SM601F : Man consumed: fish
-	SM601G : Man consumed: chicken or meat
+          SM601B : Man consumed: pulses or beans
+          SM601C : Man consumed: dark green leafy veggies
+          SM601D : Man consumed: fruits
+          SM601E : Man consumed: eggs
+          SM601F : Man consumed: fish
+          SM601G : Man consumed: chicken or meat
 
 
 16. Other disease - high correlation between diabetes and other disease
                     
           SM612  : Drinks alcohol
-	SM613  : Frequency of alcohol use
-	SM618A : Do you have: diabetes
+          SM613  : Frequency of alcohol use
+          SM618A : Do you have: diabetes
           SM618C : Do you have: goiter or other thyroid disorder
 
 ### Health 
@@ -266,19 +264,19 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 17. Health factors & BMI
                     
           MV042	Household selection for hemoglobin
-	MV437	Respondent's weight (kilos-1d)
-	MV438	Respondent's height (cms-1d)
-	MV439	Ht/A Percentile (resp)
-	MV440	Ht/A Standard deviations (resp)
-	MV441	Ht/A Percent ref. median (resp)
-	MV442	Wt/Ht Percent ref. median (DHS)
-	MV443	Wt/Ht Percent ref. median (Fog)
-	MV444	Wt/Ht Percent ref. median (WHO)
-	MV444A	Wt/Ht Std deviations (resp) DHS
-	MV445	Body mass index for respondent
-	MV446	Rohrer's index for respondent - for leaness
- 	MV447	Result of measurement of respondent
-	MV447A	Man's age in years from household report
+          MV437	Respondent's weight (kilos-1d)
+          MV438	Respondent's height (cms-1d)
+          MV439	Ht/A Percentile (resp)
+          MV440	Ht/A Standard deviations (resp)
+          MV441	Ht/A Percent ref. median (resp)
+          MV442	Wt/Ht Percent ref. median (DHS)
+          MV443	Wt/Ht Percent ref. median (Fog)
+          MV444	Wt/Ht Percent ref. median (WHO)
+          MV444A	Wt/Ht Std deviations (resp) DHS
+          MV445	Body mass index for respondent
+          MV446	Rohrer's index for respondent - for leaness
+          MV447	Result of measurement of respondent
+          MV447A	Man's age in years from household report
 
           HV234 :  Test salt for Iodine
 	          0 = 0 PPM (No Iodine)
@@ -313,5 +311,5 @@ Calender (VCAL) codes - contains information on aspects of the respondent's imme
 	          17 = Domestic servant
 	          98 = DK
 
-Above attributes will be selected initially and PCA will be performed to reduce attributes.
+Above attributes will be selected initially & PCA will be performed to reduce attributes.
 
