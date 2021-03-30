@@ -32,24 +32,24 @@ Attributes used in Machine learning for diabetes prediction
 Calender (VCAL) codes - contains information on aspects of the respondent's immediate history
 
 1. VCAL(1): Births, pregnancies and contraceptive use 
-            B = Birth
-            P = Pregnancies
-            T = Terminated pregnancy / non-live birth
-            0 = Non-use of contraception
-            1 = Pill
-            2 = IUD
-            3 = Injections
-            4 = Diaphragm
-            5 = Condom
-            6 = Female sterilization
-            7 = Male sterilization
-            8 = Periodic abstinence/rhythm 
-            9 = Withdrawal
-            W = other traditional methods 
-            N = Norplant/implants
-            C = Female condom
-            F = Foam or jelly
-            ? = Missing
+          B = Birth
+          P = Pregnancies
+          T = Terminated pregnancy / non-live birth
+          0 = Non-use of contraception
+          1 = Pill
+          2 = IUD
+          3 = Injections
+          4 = Diaphragm
+          5 = Condom
+          6 = Female sterilization
+          7 = Male sterilization
+          8 = Periodic abstinence/rhythm 
+          9 = Withdrawal
+          W = other traditional methods
+          N = Norplant/implants
+          C = Female condom
+          F = Foam or jelly
+          ? = Missing
 
 2. Standard of living index - below attributes for physical activity 
           HV210 = 1: Bicycle     Assigned SLI score : 2
