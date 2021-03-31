@@ -27,7 +27,7 @@ Attributes used in Machine learning for diabetes prediction
 7. DiabetesPedigreeFunction - based upon family history - (doubtful)
 8. Age
 
-## NFHS-4 attributes for diabetes risk 
+## NFHS-4 attributes for diabetes risk - needs evaluation 
 
 ### CASEID
 
@@ -478,7 +478,7 @@ Attributes used in Machine learning for diabetes prediction
 
 127. SMDISTRI : District 
 
-
+128. 
 
 
 
