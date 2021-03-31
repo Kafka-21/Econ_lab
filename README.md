@@ -80,8 +80,12 @@ HSP 511 - Economics Lab
 
 # Week 7
 ### (March 28, 2021 14:00 - 16:00)
-    - NHFS dataset 
+    - NHFS dataset analysis
+    - Diabetes Literature search 
 
 ### (March 29, 2021 14:00 - 16:00)
+    - Machine learning code for diabetes using PIMA Indian data 
 
 ### (March 30, 2020 14:00 - 18:00)
+    - NFHS-3 / 4 / 5 Attribute selection for Diabetes risk analysis 
+    - Using Pandas & R for extracting required attribute from NFHS dataset 
