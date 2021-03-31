@@ -280,8 +280,6 @@ Attributes used in Machine learning for diabetes prediction
 
 58. V447 : Result of measurement - height/weight 
 
-### Take care - data of women
-
 59. V447A : Women's age in years 
 
 60. V454 : Currently pregnant
