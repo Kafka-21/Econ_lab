@@ -1,3 +1,39 @@
+# Loading the required packages and datasets
+
+library("tidyverse")
+library("dplyr")
+library("ggplot2")
+
+data_individual <- da36151.0001 # individual data
+
+# selection of relevant columns from dataset
+data_individual <- data_individual[,c("STATEID","DISTID","PSUID", "HHID", "HHSPLITID",
+                                      "PERSONID", "IDPSU", "IDHH", "DISTRICT", "IDPERSON",
+                                      "WT", "FWT", "RO3", "RO4","RO5", "RO6", "RO7", "ED6", "EDUC7", 
+                                      "URBAN2011", "ID11", "ID13", "GROUPS",
+                                      "ASSETS", "INCOME", "WS4")]
+
+
+data_individual$num_RO4 <- fct_collapse(data_individual$RO4,
+                                        "1" = c("(01) Head 1"),
+                                        "2" = c("(02) Wife/Husband 2"),
+                                        "3" = c("(03) Son/Daughter 3"),
+                                        "4" = c("(04) Child-in-Law 4"),
+                                        "5" = c("(05) Grandchild 5"),
+                                        "6" = c("(06) Father/Mother 6"),
+                                        "7" = c("(07) Brother/Sister 7"),
+                                        "8" = c("(08) Parent-in-Law 8"),
+                                        "9" = c("(09) Nephew/Niece 9"),
+                                        "10" = c("(10) Sib-in-Law 10"),
+                                        "11" = c("(11) Other rel 11"),
+                                        "12" = c("(12) Servant/Others 12"),
+                                       
+                                        )
+
+
+
+
+
 # network plots code
 
 library(igraph)
@@ -61,7 +97,7 @@ for(i in 1:nrow(mydata_1)){
 }
 
 # Total weighted households
-TWHH <- sum(mydata_1[which(mydata_1$RO4 == 1),"WT"]) 
+TWHH <- sum(mydata_1[which(mydata_1$num_RO4 == 1),"WT"]) 
 
 n <- length(colnames(Bimodal))
 OneModeAdj <- matrix(0, nrow =n, ncol = n)
