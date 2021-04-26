@@ -74,3 +74,25 @@ HSP 511 - Economics Lab
 
 ### (March 9, 2021 14:00 - 16:00)
     - optimization using user defined function  
+
+# Week 6
+### 
+
+# Week 7
+### (March 28, 2021 14:00 - 16:00)
+    - NHFS dataset analysis
+    - Diabetes Literature search 
+
+### (March 29, 2021 14:00 - 16:00)
+    - Machine learning code for diabetes using PIMA Indian data 
+
+### (March 30, 2021 14:00 - 18:00)
+    - NFHS-3 / 4 / 5 Attribute selection for Diabetes risk analysis 
+    - Using Pandas & R for extracting required attribute from NFHS dataset 
+
+### (April 1, 2021 18:00 - 22:00)
+    - Access IITD internal LAN through VPN, VPN configuration 
+    - Access HPC login node through VPN and setup initial environment 
+    - uploaded NFHS zipped files on HPC server and unzipped them on server 
+    - setting up environment for python and jupyter notebook on HPC server 
+    - learning about job scheduling on server 
